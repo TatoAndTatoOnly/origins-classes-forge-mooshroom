@@ -1,0 +1,11 @@
+{
+  "powers": [
+    "origins_classes:quality_equipment",
+    "origins_classes:efficient_repairs",
+    "origins_classes:potion_bonus",
+    "origins_classes:better_enchanting"
+  ],
+  "icon": "minecraft:iron_ingot",
+  "order": 3,
+  "impact": 0
+}

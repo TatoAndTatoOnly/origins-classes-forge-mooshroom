@@ -1,0 +1,83 @@
+{
+  "type": "apoli:multiple",
+  "melee": {
+    "type": "apoli:modify_crafting",
+    "item_condition": {
+      "type": "origins_classes:melee"
+    },
+    "item_action": {
+      "type": "apoli:modify",
+      "modifier": "origins_classes:blacksmith/melee"
+    }
+  },
+  "range": {
+    "type": "apoli:modify_crafting",
+    "item_condition": {
+      "type": "origins_classes:range"
+    },
+    "item_action": {
+      "type": "apoli:modify",
+      "modifier": "origins_classes:blacksmith/range"
+    }
+  },
+  "tool": {
+    "type": "apoli:modify_crafting",
+    "item_condition": {
+      "type": "origins_classes:tool"
+    },
+    "item_action": {
+      "type": "apoli:modify",
+      "modifier": "origins_classes:blacksmith/tool"
+    }
+  },
+  "shield": {
+    "type": "apoli:modify_crafting",
+    "item_condition": {
+      "type": "origins_classes:shield"
+    },
+    "item_action": {
+      "type": "apoli:modify",
+      "modifier": "origins_classes:blacksmith/shield"
+    }
+  },
+  "helmet": {
+    "type": "apoli:modify_crafting",
+    "item_condition": {
+      "type": "origins_classes:helmet"
+    },
+    "item_action": {
+      "type": "apoli:modify",
+      "modifier": "origins_classes:blacksmith/helmet"
+    }
+  },
+  "chestplate": {
+    "type": "apoli:modify_crafting",
+    "item_condition": {
+      "type": "origins_classes:chestplate"
+    },
+    "item_action": {
+      "type": "apoli:modify",
+      "modifier": "origins_classes:blacksmith/chestplate"
+    }
+  },
+  "leggings": {
+    "type": "apoli:modify_crafting",
+    "item_condition": {
+      "type": "origins_classes:leggings"
+    },
+    "item_action": {
+      "type": "apoli:modify",
+      "modifier": "origins_classes:blacksmith/leggings"
+    }
+  },
+  "shoes": {
+    "type": "apoli:modify_crafting",
+    "item_condition": {
+      "type": "origins_classes:shoes"
+    },
+    "item_action": {
+      "type": "apoli:modify",
+      "modifier": "origins_classes:blacksmith/shoes"
+    }
+  }
+}

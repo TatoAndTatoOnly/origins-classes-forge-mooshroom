@@ -1,0 +1,11 @@
+{
+  "powers": [
+    "origins_classes:more_stone_break_speed",
+    "origins_classes:no_mining_exhaustion",
+    "origins_classes:tree_felling",
+    "origins_classes:more_planks_from_logs"
+  ],
+  "icon": "minecraft:iron_pickaxe",
+  "order": 2,
+  "impact": 0
+}

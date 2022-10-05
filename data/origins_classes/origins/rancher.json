@@ -1,0 +1,11 @@
+{
+  "powers": [
+    "origins_classes:twin_breeding",
+    "origins_classes:more_animal_loot",
+    "origins_classes:tamed_animal_boost",
+    "origins_classes:tamed_potion_diffusal"
+  ],
+  "icon": "minecraft:lead",
+  "order": 4,
+  "impact": 0
+}

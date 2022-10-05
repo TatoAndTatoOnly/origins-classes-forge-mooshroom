@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "order": 9,
+  "enabled": true,
+  "origins": [
+    "origins_classes:farmer",
+    "origins_classes:miner",
+    "origins_classes:blacksmith",
+    "origins_classes:rancher",
+    "origins_classes:merchant",
+    "origins_classes:nitwit"
+  ]
+}

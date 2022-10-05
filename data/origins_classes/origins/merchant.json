@@ -1,0 +1,11 @@
+{
+  "powers": [
+    "origins_classes:trade_availability",
+    "origins_classes:rare_wandering_loot",
+    "origins_classes:explorer_kit",
+    "origins_classes:no_sprint_exhaustion"
+  ],
+  "icon": "minecraft:emerald",
+  "order": 5,
+  "impact": 0
+}

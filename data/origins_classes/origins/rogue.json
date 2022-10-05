@@ -1,0 +1,12 @@
+{
+  "powers": [
+    "origins_classes:sneaky",
+    "origins_classes:stealth",
+    "origins_classes:stealth_core",
+    "origins_classes:detect",
+    "origins_classes:clink_and_clank"
+  ],
+  "icon": "minecraft:iron_sword",
+  "order": 1,
+  "impact": 0
+}

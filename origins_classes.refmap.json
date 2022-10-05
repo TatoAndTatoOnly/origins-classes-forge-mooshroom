@@ -1,0 +1,162 @@
+{
+  "mappings": {
+    "limonblaze/originsclasses/mixin/ArrowMixin": {
+      "addAdditionalSaveData": "Lnet/minecraft/world/entity/projectile/Arrow;m_7380_(Lnet/minecraft/nbt/CompoundTag;)V",
+      "getPickupItem": "Lnet/minecraft/world/entity/projectile/Arrow;m_7941_()Lnet/minecraft/world/item/ItemStack;",
+      "setEffectsFromItem": "Lnet/minecraft/world/entity/projectile/Arrow;m_36878_(Lnet/minecraft/world/item/ItemStack;)V",
+      "doPostHurtEffects": "Lnet/minecraft/world/entity/projectile/Arrow;m_7761_(Lnet/minecraft/world/entity/LivingEntity;)V",
+      "readAdditionalSaveData": "Lnet/minecraft/world/entity/projectile/Arrow;m_7378_(Lnet/minecraft/nbt/CompoundTag;)V",
+      "Lnet/minecraft/world/entity/LivingEntity;addEffect(Lnet/minecraft/world/effect/MobEffectInstance;Lnet/minecraft/world/entity/Entity;)Z": "Lnet/minecraft/world/entity/LivingEntity;m_147207_(Lnet/minecraft/world/effect/MobEffectInstance;Lnet/minecraft/world/entity/Entity;)Z"
+    },
+    "limonblaze/originsclasses/mixin/PlayerMixin": {
+      "checkMovementStatistics": "Lnet/minecraft/world/entity/player/Player;m_36378_(DDD)V"
+    },
+    "limonblaze/originsclasses/mixin/client/LocalPlayerMixin": {
+      "aiStep": "Lnet/minecraft/client/player/LocalPlayer;m_8107_()V"
+    },
+    "limonblaze/originsclasses/mixin/ServerPlayerGameModeMixin": {
+      "destroyAndAck": "Lnet/minecraft/server/level/ServerPlayerGameMode;m_9286_(Lnet/minecraft/core/BlockPos;Lnet/minecraft/network/protocol/game/ServerboundPlayerActionPacket$Action;Ljava/lang/String;)V",
+      "Lnet/minecraft/world/level/block/state/BlockState;getDestroyProgress(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)F": "Lnet/minecraft/world/level/block/state/BlockState;m_60625_(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)F",
+      "handleBlockBreakAction": "Lnet/minecraft/server/level/ServerPlayerGameMode;m_7391_(Lnet/minecraft/core/BlockPos;Lnet/minecraft/network/protocol/game/ServerboundPlayerActionPacket$Action;Lnet/minecraft/core/Direction;I)V",
+      "Lnet/minecraft/server/network/ServerGamePacketListenerImpl;send(Lnet/minecraft/network/protocol/Packet;)V": "Lnet/minecraft/server/network/ServerGamePacketListenerImpl;m_141995_(Lnet/minecraft/network/protocol/Packet;)V"
+    },
+    "limonblaze/originsclasses/mixin/ProjectileMixin": {
+      "shootFromRotation": "Lnet/minecraft/world/entity/projectile/Projectile;m_37251_(Lnet/minecraft/world/entity/Entity;FFFFF)V",
+      "shoot": "Lnet/minecraft/world/entity/projectile/Projectile;m_6686_(DDDFF)V"
+    },
+    "limonblaze/originsclasses/mixin/AbstractCauldronBlockMixin": {
+      "use": "Lnet/minecraft/world/level/block/AbstractCauldronBlock;m_6227_(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;Lnet/minecraft/world/phys/BlockHitResult;)Lnet/minecraft/world/InteractionResult;"
+    },
+    "limonblaze/originsclasses/mixin/compat/apotheosis/ApotheosisEnchantmentMenuMixin": {
+      "slotsChanged": "Lshadows/apotheosis/ench/table/ApothEnchantContainer;m_6199_(Lnet/minecraft/world/Container;)V"
+    },
+    "limonblaze/originsclasses/mixin/AbstractFurnaceBlockEntityMixin": {
+      "createExperience": "Lnet/minecraft/world/level/block/entity/AbstractFurnaceBlockEntity;m_154998_(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/phys/Vec3;IF)V",
+      "awardUsedRecipesAndPopExperience": "Lnet/minecraft/world/level/block/entity/AbstractFurnaceBlockEntity;m_155003_(Lnet/minecraft/server/level/ServerPlayer;)V"
+    },
+    "limonblaze/originsclasses/mixin/BreedGoalMixin": {
+      "tick": "Lnet/minecraft/world/entity/ai/goal/BreedGoal;m_8037_()V",
+      "Lnet/minecraft/world/entity/ai/goal/BreedGoal;breed()V": "Lnet/minecraft/world/entity/ai/goal/BreedGoal;m_8026_()V"
+    },
+    "limonblaze/originsclasses/mixin/accessor/LivingEntityAccessor": {
+      "dropFromLootTable": "m_7625_(Lnet/minecraft/world/damagesource/DamageSource;Z)V"
+    },
+    "limonblaze/originsclasses/mixin/client/ClientSideMerchantMixin": {
+      "notifyTrade": "Lnet/minecraft/world/entity/npc/ClientSideMerchant;m_6996_(Lnet/minecraft/world/item/trading/MerchantOffer;)V"
+    },
+    "limonblaze/originsclasses/mixin/AbstractVillagerMixin": {
+      "setTradingPlayer": "Lnet/minecraft/world/entity/npc/AbstractVillager;m_7189_(Lnet/minecraft/world/entity/player/Player;)V",
+      "addAdditionalSaveData": "Lnet/minecraft/world/entity/npc/AbstractVillager;m_7380_(Lnet/minecraft/nbt/CompoundTag;)V",
+      "readAdditionalSaveData": "Lnet/minecraft/world/entity/npc/AbstractVillager;m_7378_(Lnet/minecraft/nbt/CompoundTag;)V",
+      "notifyTrade": "Lnet/minecraft/world/entity/npc/AbstractVillager;m_6996_(Lnet/minecraft/world/item/trading/MerchantOffer;)V"
+    },
+    "limonblaze/originsclasses/mixin/EnchantmentMenuMixin": {
+      "slotsChanged": "Lnet/minecraft/world/inventory/EnchantmentMenu;m_6199_(Lnet/minecraft/world/Container;)V",
+      "<init>(ILnet/minecraft/world/entity/player/Inventory;Lnet/minecraft/world/inventory/ContainerLevelAccess;)V": "Lnet/minecraft/world/inventory/EnchantmentMenu;<init>(ILnet/minecraft/world/entity/player/Inventory;Lnet/minecraft/world/inventory/ContainerLevelAccess;)V",
+      "Lnet/minecraft/world/inventory/ContainerLevelAccess;execute(Ljava/util/function/BiConsumer;)V": "Lnet/minecraft/world/inventory/ContainerLevelAccess;m_39292_(Ljava/util/function/BiConsumer;)V"
+    },
+    "limonblaze/originsclasses/mixin/FoodDataMixin": {
+      "eat(Lnet/minecraft/world/item/Item;Lnet/minecraft/world/item/ItemStack;)V": "Lnet/minecraft/world/food/FoodData;m_38712_(Lnet/minecraft/world/item/Item;Lnet/minecraft/world/item/ItemStack;)V"
+    },
+    "limonblaze/originsclasses/mixin/TippedArrowRecipeMixin": {
+      "assemble(Lnet/minecraft/world/inventory/CraftingContainer;)Lnet/minecraft/world/item/ItemStack;": "Lnet/minecraft/world/item/crafting/TippedArrowRecipe;m_5874_(Lnet/minecraft/world/inventory/CraftingContainer;)Lnet/minecraft/world/item/ItemStack;"
+    },
+    "limonblaze/originsclasses/mixin/PotionUtilMixin": {
+      "getAllEffects(Lnet/minecraft/nbt/CompoundTag;)Ljava/util/List;": "Lnet/minecraft/world/item/alchemy/PotionUtils;m_43566_(Lnet/minecraft/nbt/CompoundTag;)Ljava/util/List;"
+    },
+    "limonblaze/originsclasses/mixin/RepairItemRecipeMixin": {
+      "assemble(Lnet/minecraft/world/inventory/CraftingContainer;)Lnet/minecraft/world/item/ItemStack;": "Lnet/minecraft/world/item/crafting/RepairItemRecipe;m_5874_(Lnet/minecraft/world/inventory/CraftingContainer;)Lnet/minecraft/world/item/ItemStack;"
+    },
+    "limonblaze/originsclasses/mixin/BlockMixin": {
+      "playerDestroy": "Lnet/minecraft/world/level/block/Block;m_6240_(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/entity/BlockEntity;Lnet/minecraft/world/item/ItemStack;)V",
+      "Lnet/minecraft/world/level/block/Block;dropResources(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/entity/BlockEntity;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/item/ItemStack;)V": "Lnet/minecraft/world/level/block/Block;m_49881_(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/entity/BlockEntity;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/item/ItemStack;)V"
+    },
+    "limonblaze/originsclasses/mixin/AnvilMenuMixin": {
+      "createResult": "Lnet/minecraft/world/inventory/AnvilMenu;m_6640_()V"
+    },
+    "limonblaze/originsclasses/mixin/accessor/LootTableAccessor": {
+      "pools": "f_79109_:Ljava/util/List;"
+    }
+  },
+  "data": {
+    "searge": {
+      "limonblaze/originsclasses/mixin/ArrowMixin": {
+        "addAdditionalSaveData": "Lnet/minecraft/world/entity/projectile/Arrow;m_7380_(Lnet/minecraft/nbt/CompoundTag;)V",
+        "getPickupItem": "Lnet/minecraft/world/entity/projectile/Arrow;m_7941_()Lnet/minecraft/world/item/ItemStack;",
+        "setEffectsFromItem": "Lnet/minecraft/world/entity/projectile/Arrow;m_36878_(Lnet/minecraft/world/item/ItemStack;)V",
+        "doPostHurtEffects": "Lnet/minecraft/world/entity/projectile/Arrow;m_7761_(Lnet/minecraft/world/entity/LivingEntity;)V",
+        "readAdditionalSaveData": "Lnet/minecraft/world/entity/projectile/Arrow;m_7378_(Lnet/minecraft/nbt/CompoundTag;)V",
+        "Lnet/minecraft/world/entity/LivingEntity;addEffect(Lnet/minecraft/world/effect/MobEffectInstance;Lnet/minecraft/world/entity/Entity;)Z": "Lnet/minecraft/world/entity/LivingEntity;m_147207_(Lnet/minecraft/world/effect/MobEffectInstance;Lnet/minecraft/world/entity/Entity;)Z"
+      },
+      "limonblaze/originsclasses/mixin/PlayerMixin": {
+        "checkMovementStatistics": "Lnet/minecraft/world/entity/player/Player;m_36378_(DDD)V"
+      },
+      "limonblaze/originsclasses/mixin/client/LocalPlayerMixin": {
+        "aiStep": "Lnet/minecraft/client/player/LocalPlayer;m_8107_()V"
+      },
+      "limonblaze/originsclasses/mixin/ServerPlayerGameModeMixin": {
+        "destroyAndAck": "Lnet/minecraft/server/level/ServerPlayerGameMode;m_9286_(Lnet/minecraft/core/BlockPos;Lnet/minecraft/network/protocol/game/ServerboundPlayerActionPacket$Action;Ljava/lang/String;)V",
+        "Lnet/minecraft/world/level/block/state/BlockState;getDestroyProgress(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)F": "Lnet/minecraft/world/level/block/state/BlockState;m_60625_(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)F",
+        "handleBlockBreakAction": "Lnet/minecraft/server/level/ServerPlayerGameMode;m_7391_(Lnet/minecraft/core/BlockPos;Lnet/minecraft/network/protocol/game/ServerboundPlayerActionPacket$Action;Lnet/minecraft/core/Direction;I)V",
+        "Lnet/minecraft/server/network/ServerGamePacketListenerImpl;send(Lnet/minecraft/network/protocol/Packet;)V": "Lnet/minecraft/server/network/ServerGamePacketListenerImpl;m_141995_(Lnet/minecraft/network/protocol/Packet;)V"
+      },
+      "limonblaze/originsclasses/mixin/ProjectileMixin": {
+        "shootFromRotation": "Lnet/minecraft/world/entity/projectile/Projectile;m_37251_(Lnet/minecraft/world/entity/Entity;FFFFF)V",
+        "shoot": "Lnet/minecraft/world/entity/projectile/Projectile;m_6686_(DDDFF)V"
+      },
+      "limonblaze/originsclasses/mixin/AbstractCauldronBlockMixin": {
+        "use": "Lnet/minecraft/world/level/block/AbstractCauldronBlock;m_6227_(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;Lnet/minecraft/world/phys/BlockHitResult;)Lnet/minecraft/world/InteractionResult;"
+      },
+      "limonblaze/originsclasses/mixin/compat/apotheosis/ApotheosisEnchantmentMenuMixin": {
+        "slotsChanged": "Lshadows/apotheosis/ench/table/ApothEnchantContainer;m_6199_(Lnet/minecraft/world/Container;)V"
+      },
+      "limonblaze/originsclasses/mixin/AbstractFurnaceBlockEntityMixin": {
+        "createExperience": "Lnet/minecraft/world/level/block/entity/AbstractFurnaceBlockEntity;m_154998_(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/phys/Vec3;IF)V",
+        "awardUsedRecipesAndPopExperience": "Lnet/minecraft/world/level/block/entity/AbstractFurnaceBlockEntity;m_155003_(Lnet/minecraft/server/level/ServerPlayer;)V"
+      },
+      "limonblaze/originsclasses/mixin/BreedGoalMixin": {
+        "tick": "Lnet/minecraft/world/entity/ai/goal/BreedGoal;m_8037_()V",
+        "Lnet/minecraft/world/entity/ai/goal/BreedGoal;breed()V": "Lnet/minecraft/world/entity/ai/goal/BreedGoal;m_8026_()V"
+      },
+      "limonblaze/originsclasses/mixin/accessor/LivingEntityAccessor": {
+        "dropFromLootTable": "m_7625_(Lnet/minecraft/world/damagesource/DamageSource;Z)V"
+      },
+      "limonblaze/originsclasses/mixin/client/ClientSideMerchantMixin": {
+        "notifyTrade": "Lnet/minecraft/world/entity/npc/ClientSideMerchant;m_6996_(Lnet/minecraft/world/item/trading/MerchantOffer;)V"
+      },
+      "limonblaze/originsclasses/mixin/AbstractVillagerMixin": {
+        "setTradingPlayer": "Lnet/minecraft/world/entity/npc/AbstractVillager;m_7189_(Lnet/minecraft/world/entity/player/Player;)V",
+        "addAdditionalSaveData": "Lnet/minecraft/world/entity/npc/AbstractVillager;m_7380_(Lnet/minecraft/nbt/CompoundTag;)V",
+        "readAdditionalSaveData": "Lnet/minecraft/world/entity/npc/AbstractVillager;m_7378_(Lnet/minecraft/nbt/CompoundTag;)V",
+        "notifyTrade": "Lnet/minecraft/world/entity/npc/AbstractVillager;m_6996_(Lnet/minecraft/world/item/trading/MerchantOffer;)V"
+      },
+      "limonblaze/originsclasses/mixin/EnchantmentMenuMixin": {
+        "slotsChanged": "Lnet/minecraft/world/inventory/EnchantmentMenu;m_6199_(Lnet/minecraft/world/Container;)V",
+        "<init>(ILnet/minecraft/world/entity/player/Inventory;Lnet/minecraft/world/inventory/ContainerLevelAccess;)V": "Lnet/minecraft/world/inventory/EnchantmentMenu;<init>(ILnet/minecraft/world/entity/player/Inventory;Lnet/minecraft/world/inventory/ContainerLevelAccess;)V",
+        "Lnet/minecraft/world/inventory/ContainerLevelAccess;execute(Ljava/util/function/BiConsumer;)V": "Lnet/minecraft/world/inventory/ContainerLevelAccess;m_39292_(Ljava/util/function/BiConsumer;)V"
+      },
+      "limonblaze/originsclasses/mixin/FoodDataMixin": {
+        "eat(Lnet/minecraft/world/item/Item;Lnet/minecraft/world/item/ItemStack;)V": "Lnet/minecraft/world/food/FoodData;m_38712_(Lnet/minecraft/world/item/Item;Lnet/minecraft/world/item/ItemStack;)V"
+      },
+      "limonblaze/originsclasses/mixin/TippedArrowRecipeMixin": {
+        "assemble(Lnet/minecraft/world/inventory/CraftingContainer;)Lnet/minecraft/world/item/ItemStack;": "Lnet/minecraft/world/item/crafting/TippedArrowRecipe;m_5874_(Lnet/minecraft/world/inventory/CraftingContainer;)Lnet/minecraft/world/item/ItemStack;"
+      },
+      "limonblaze/originsclasses/mixin/PotionUtilMixin": {
+        "getAllEffects(Lnet/minecraft/nbt/CompoundTag;)Ljava/util/List;": "Lnet/minecraft/world/item/alchemy/PotionUtils;m_43566_(Lnet/minecraft/nbt/CompoundTag;)Ljava/util/List;"
+      },
+      "limonblaze/originsclasses/mixin/RepairItemRecipeMixin": {
+        "assemble(Lnet/minecraft/world/inventory/CraftingContainer;)Lnet/minecraft/world/item/ItemStack;": "Lnet/minecraft/world/item/crafting/RepairItemRecipe;m_5874_(Lnet/minecraft/world/inventory/CraftingContainer;)Lnet/minecraft/world/item/ItemStack;"
+      },
+      "limonblaze/originsclasses/mixin/BlockMixin": {
+        "playerDestroy": "Lnet/minecraft/world/level/block/Block;m_6240_(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/entity/BlockEntity;Lnet/minecraft/world/item/ItemStack;)V",
+        "Lnet/minecraft/world/level/block/Block;dropResources(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/entity/BlockEntity;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/item/ItemStack;)V": "Lnet/minecraft/world/level/block/Block;m_49881_(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/entity/BlockEntity;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/item/ItemStack;)V"
+      },
+      "limonblaze/originsclasses/mixin/AnvilMenuMixin": {
+        "createResult": "Lnet/minecraft/world/inventory/AnvilMenu;m_6640_()V"
+      },
+      "limonblaze/originsclasses/mixin/accessor/LootTableAccessor": {
+        "pools": "f_79109_:Ljava/util/List;"
+      }
+    }
+  }
+}
